@@ -1,4 +1,8 @@
 package com.mobi.tvseries.repository
 
-class SeriesRepository {
+import com.mobi.tvseries.data.TvSeriesDao
+import com.mobi.tvseries.data.TvSeriesEntity
+
+class SeriesRepository(private val tvSeriesDao: TvSeriesDao) {
+
 }
